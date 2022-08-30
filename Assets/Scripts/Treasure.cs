@@ -16,8 +16,10 @@ public class Treasure : CollectibleBase
         
         if (controller != null)
         {
+            
             _treasureCount += 1;
             txt.text = "Treasures: " + _treasureCount.ToString();
+            Debug.Log(_treasureCount);
         }
     }
 }

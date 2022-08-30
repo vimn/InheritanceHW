@@ -157,8 +157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damageAmount: 1
-  _impactParticles: {fileID: 0}
-  _impactSound: {fileID: 0}
+  _impactParticles: {fileID: 3709172761492970802, guid: 17b327230cbaeff4390a248b984b4cda, type: 3}
+  _impactSound: {fileID: 8300000, guid: 31daf626b3f8e6444a853af6188cffff, type: 3}
   _speedAmount: 2
 --- !u!54 &42747488
 Rigidbody:
@@ -288,8 +288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damageAmount: 1
-  _impactParticles: {fileID: 0}
-  _impactSound: {fileID: 0}
+  _impactParticles: {fileID: 3709172761492970802, guid: e1819e0de0d72a3479cb8d012441c05a, type: 3}
+  _impactSound: {fileID: 8300000, guid: 4bc88e9fda912a442acd9f550dfef433, type: 3}
 --- !u!54 &68060765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 1
-  _collectParticles: {fileID: 0}
-  _collectSound: {fileID: 0}
+  _collectParticles: {fileID: 3709172761492970802, guid: d9038e56d7c8faf4b8ad668f367c0e0c, type: 3}
+  _collectSound: {fileID: 8300000, guid: 743910d6c1d28e54788d33115b50e302, type: 3}
   _healthAdded: 1
 --- !u!54 &749804951
 Rigidbody:
@@ -1064,8 +1064,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damageAmount: 1
-  _impactParticles: {fileID: 0}
-  _impactSound: {fileID: 0}
+  _impactParticles: {fileID: 3709172761492970802, guid: 5bb845d4e5ade3942b5ad65724c659ef, type: 3}
+  _impactSound: {fileID: 8300000, guid: 028e8806209300e498a5bf8c062b96c9, type: 3}
 --- !u!1 &860696567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,8 +1183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 1
-  _collectParticles: {fileID: 0}
-  _collectSound: {fileID: 0}
+  _collectParticles: {fileID: 3709172761492970802, guid: 9fc5b3f1415088f42bdafa70ffc50c03, type: 3}
+  _collectSound: {fileID: 8300000, guid: 891d70ea8af0c3746a91ce9c89338fc0, type: 3}
   _speedAmount: 0.2
 --- !u!54 &904560946
 Rigidbody:
@@ -1615,9 +1615,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementSpeed: 1
-  _collectParticles: {fileID: 0}
-  _collectSound: {fileID: 0}
-  _treasureCount: 1
+  _collectParticles: {fileID: 3709172761492970802, guid: 4f2fdcb9332a53a4aa0dbf9ccc62d96a, type: 3}
+  _collectSound: {fileID: 8300000, guid: 0f8555703358bd34ba8c7ad03af9abd1, type: 3}
+  _treasureCount: 0
   txt: {fileID: 1226869424}
 --- !u!54 &1351277286
 Rigidbody:
@@ -1981,8 +1981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _powerupDuration: 3
-  _collectParticles: {fileID: 0}
-  _collectSound: {fileID: 0}
+  _collectParticles: {fileID: 3709172761492970802, guid: 3063d2bd7ad33aa4ea88bc4e19097605, type: 3}
+  _collectSound: {fileID: 8300000, guid: 24464e5ea2371b54c9e7a031ad092b8c, type: 3}
   state: 0
   _powerMat: {fileID: 2100000, guid: df873c335f6ef394089ba1ef4f66c0a7, type: 2}
   _powerDownMat: {fileID: 2100000, guid: b1310ba89d583b1449ae1c0bf6e5b4f0, type: 2}
