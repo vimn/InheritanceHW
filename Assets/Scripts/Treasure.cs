@@ -5,7 +5,7 @@ using TMPro;
 
 public class Treasure : CollectibleBase
 {
-    [SerializeField] float _treasureCount = 1;
+    [SerializeField] float _treasureCount = 0;
 
     public TextMeshProUGUI txt;
     private float treasureCount;
@@ -16,8 +16,8 @@ public class Treasure : CollectibleBase
         
         if (controller != null)
         {
-            treasureCount += 1;
-            txt.text = "Treasures: " + treasureCount.ToString();
+            _treasureCount += 1;
+            txt.text = "Treasures: " + _treasureCount.ToString();
         }
     }
 }

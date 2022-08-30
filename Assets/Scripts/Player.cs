@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] int _maxHealth = 3;
     int _currentHealth;
+    public bool invincible = false;
 
     TankController _tankController;
     // Start is called before the first frame update
@@ -26,9 +27,20 @@ public class Player : MonoBehaviour
         Debug.Log("Player's health: " + _currentHealth);
     }
 
+    public void Invincible() 
+    {
+        invincible = true;
+    }
+    public void unInvincible()
+    {
+        invincible = false;
+    }
     public void DecreaseHealth(int amount) 
     {
-        _currentHealth -= amount;
+        if (!invincible)
+        {
+            _currentHealth -= amount;
+        }
         Debug.Log("Player's health: " + _currentHealth);
         if (_currentHealth <= 0) 
         {
@@ -38,7 +50,14 @@ public class Player : MonoBehaviour
 
     public void Kill() 
     {
-        gameObject.SetActive(false);
+        if (!invincible) 
+        {
+            gameObject.SetActive(false);
+        }
+        
     }
-
+    private void Update()
+    {
+       // Debug.Log(invincible);
+    }
 }
